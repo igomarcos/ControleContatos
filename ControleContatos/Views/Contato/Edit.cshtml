@@ -1,5 +1,51 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Editar Contato";
 }
+
+<div class="text-center cadastrar-contato">
+
+    <h1 class="display-4">Cadastrar contato</h1>
+
+      <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="name" type="text" class="validate">
+          <label for="name">Digite seu nome</label>
+        </div>
+      </div>
+    </form>
+  </div>
+
+   <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Digite seu E-mail</label>
+        </div>
+      </div>
+    </form>
+  </div>
+
+   <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email">Digite seu telefone</label>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="buttons-create">
+    <button class="btn waves-effect waves-light button-change" type="submit" name="action">Alterar
+
+    </button>
+
+    <a class="waves-effect waves-light btn button-ado" asp-controller="Contato" asp-action="Index" >Voltar<i class="material-icons right" >redo</i></a>
+
+  </div>
+
+</div>
