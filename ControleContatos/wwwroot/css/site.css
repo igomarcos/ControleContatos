@@ -1,0 +1,62 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+table{
+    margin-top: 50px;
+}
+
+.buttn-add {
+    color: #000000;
+    margin-top: 50px;
+    background: #00ffff;
+    width: 250px;
+    text-decoration: none;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.2);
+}
+
+.buttn-add:hover{
+    background: #00d3d9;
+    transition: 0.4s;
+}
+
+.material-symbols-outlined {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.cadastrar-contato{
+    width: 100%;
+    height: 100vh;
+}
+
+.display-4{
+    margin:0;
+}
+
+.row{
+    margin:0;
+}
+
